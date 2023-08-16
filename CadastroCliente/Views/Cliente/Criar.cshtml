@@ -1,4 +1,37 @@
 ﻿@{
     ViewData["Title"] = "Insere Cliente";
 }
+
 <h1>INSERIR NOVO CLIENTE</h1>
+
+<form>
+    <div class="mb-3">
+        <label for="exampleInputNome" class="form-label">Nome</label>
+        <input type="email" class="form-control" id="exampleInputNome" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">Insira seu nome aqui.</div>
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputTelefone" class="form-label">Telefone</label>
+        <input type="password" class="form-control" id="exampleInput(11)99999-9999">
+    </div>
+</form>
+
+<form>
+    <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+  
+    <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+   
+</form>
+
+
+
+<button type="submit" class="btn btn-primary">Salvar</button>
+
+<a asp-controller="Cliente" asp-action="Index" role="button" class="btn btn-danger">Voltar</a>

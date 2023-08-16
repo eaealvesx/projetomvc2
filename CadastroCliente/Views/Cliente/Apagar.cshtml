@@ -1,4 +1,11 @@
 ﻿@{
     ViewData["Title"] = "Remove Cliente";
 }
+
 <h1>APAGAR CLIENTE</h1>
+
+<p class="meuteste"> Você realmente deseja remover Tóninho Tilápia?</p>
+<p role="button" onclick="testando()">Clique aqui</p>
+
+<a asp-controller="Cliente" asp-action="Index" role="button" class="btn btn-danger">Apagar</a>
+<a asp-controller="Cliente" asp-action="Index" role="button" class="btn btn-primary">Voltar</a>
